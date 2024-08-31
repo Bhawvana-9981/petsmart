@@ -31,11 +31,15 @@ App.js: Sets up routes to navigate between different pages:
 / for the Animal Selection page.
 /service-form/:animalName for the Service Form page.
 /service-summary for the Service Summary page.
-Step-by-Step Workflow
+Step-by-Step Workflow:
+
 Animal Selection: Users see animal cards. Clicking a card takes them to the service form for that animal.
+
 Service Form: Users fill out the form with details about the service. When submitted, data is sent to the summary page.
+
 Service Summary: Shows the details of the service and the charges. Users can click "Start Again" to restart the process.
-Implementation Details
+
+Implementation Details:
 Images: Store background images in the public directory and reference them with a relative URL in your components.
 Routing: Use react-router-dom for navigating between pages.
 Styling: Tailwind CSS classes and inline styles to ensure the layout and design are as desired.
