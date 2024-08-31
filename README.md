@@ -3,8 +3,8 @@ Project Overview:
 
 I created web application called "Bhawvana Pet Services" using React and Tailwind CSS. The app will allow users to:
 
---Select a pet (e.g., Dog, Cat, Bird).
-Fill out a form about the pet's service.
+-Select a pet (e.g., Dog, Cat, Bird).
+-Fill out a form about the pet's service.
 -View a summary of the service with final charges.
 -Restart the process if desired.
 Key Components and Pages
@@ -26,13 +26,14 @@ Restart: Includes a "Start Again" button to go back to the animal selection page
 Styling
 Tailwind CSS: Used for styling components and pages. It provides utility classes for layout, spacing, typography, and more.
 Background Image: Set using inline styles or Tailwind classes with a URL to the image. Images are placed in the public folder of the React project and referenced relative to the root.
-Routing
+
+Routing:
 App.js: Sets up routes to navigate between different pages:
 / for the Animal Selection page.
 /service-form/:animalName for the Service Form page.
 /service-summary for the Service Summary page.
-Step-by-Step Workflow:
 
+Step-by-Step Workflow:
 Animal Selection: Users see animal cards. Clicking a card takes them to the service form for that animal.
 
 Service Form: Users fill out the form with details about the service. When submitted, data is sent to the summary page.
